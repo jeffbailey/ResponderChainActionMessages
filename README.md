@@ -8,6 +8,7 @@
         <img src="https://img.shields.io/badge/twitter-@jeffbailey-blue.svg?style=flat" alt="Twitter: @jeffbailey" />
     </a>
 </p>
+
 ## Motivation
 In this sample app we're building a tab bar based application, where the first tab is a dashboard that provides summary information for each of the other tabs. Each card in the dashboard has a "Go To" button that allows the user to quickly switch tabs.
 
