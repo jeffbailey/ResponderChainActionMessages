@@ -39,7 +39,7 @@ extension UIResponder {
 
 Note that sending ```nil``` as the target in ```sendAction``` will cause UIKit to traverse the responder chain until it finds an object that implements the appropriate action selector.
 
-Next, we encapsulate an Action Message, which consists of a ```Selector``` and an optional ```UIEvent``` that will be sent to the message.
+Next, we create a protocol to model an Action Message, which consists of a ```Selector``` and an optional ```UIEvent``` that will be sent to the message.
 
 ```swift
 protocol ActionMessage {
