@@ -14,7 +14,7 @@ In this sample app we're building a tab bar based application, where the first t
 
 <p><img src="Images/demo.gif?raw=true" alt="ScrollingStackViewController Demo" width="350"/></p>
 
-The "Go To" button lives in a ```DashboardCollectionViewCell```, but the action to switch tabs needs to be handled by the ```MainTabBarController```, which is far removed from button. Instead of passing a delegate down from the tab bar controller to every cell, we take advantage of the responder chain to send an Action Message from the ```DashboardCollectionViewCell``` up to the ```MainTabBarController```.
+The "Go To" button lives in a ```DashboardCollectionViewCell```, but the action to switch tabs needs to be handled by the ```MainTabBarController```, which is far removed from the button. Instead of passing a delegate down from the tab bar controller to every cell, we take advantage of the responder chain to send an Action Message from the ```DashboardCollectionViewCell``` up to the ```MainTabBarController```.
 
 ## The Responder Chain
 For background on the UIKit Responder Chain, refer to these resources:
