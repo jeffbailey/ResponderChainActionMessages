@@ -143,6 +143,11 @@ Responder Chain Action Messages aren't a replacement for the tried and true dele
 
 Download or clone the project to take a closer look.
 
+## Requirements
+
+- XCode 10
+- Swift 4.2
+
 ## Credits
 Inspired by a great talk by at the 2017 360iDev by Brandon Alexander :
 
