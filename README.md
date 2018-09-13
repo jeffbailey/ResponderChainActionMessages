@@ -136,7 +136,7 @@ extension MainTabBarController: OpenTabMessageHandler {
 }
 ```
 
-### Summary
+## Summary
 
 Responder Chain Action Messages aren't a replacement for the tried and true delegate pattern used in iOS, but they can be a handy tool in your toolbox.
 
