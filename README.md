@@ -99,7 +99,7 @@ extension Selector {
     static let handleOpenTab = #selector(OpenTabMessageHandler.handleOpenTab(_sender:forEvent:))
 }
 ```
-The ```OpenTabEvent``` is a simple subclass of ```UIEvent``` to tell the receiver of the message which tab to open.
+```OpenTabEvent``` is a simple subclass of ```UIEvent``` to tell the receiver of the message which tab to open.
 
 Using a protocol for ```OpenTabMessageHandler``` and the ```Selector``` extension provides type safety between the sender and receiver.
 
@@ -120,7 +120,7 @@ class DashboardCollectionViewCell: UICollectionViewCell {
 }
 ```
 
-UIKit will traverse the responder chain until it finds an object that implements the selector to open the tab:
+UIKit will traverse the responder chain until it finds an object that implements the selector to open the tab. In this case, ```MainTabBarController``` implements the ```OpenTabMessageHandler``` protocol to handle the action in a type safe manner:
 
 ```swift
 extension MainTabBarController: OpenTabMessageHandler {
