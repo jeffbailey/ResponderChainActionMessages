@@ -1,6 +1,6 @@
 # Responder Chain Action Messages
 
-```SendActionDemo``` is a sample app that demonstrates how to use the UIKit responder chain as an alternative to the commonly used delegate pattern. It's a great alternative when you need looser coupling between components, but still want the type safety of delegates.
+```SendActionDemo``` is a sample app that demonstrates how to use the UIKit responder chain as an alternative to the delegate pattern. It's a great option when you need looser coupling between components, but still want the type safety of delegates.
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
      <img src="https://img.shields.io/badge/platforms-iOS-brightgreen.svg?style=flat" alt="iOS" />
