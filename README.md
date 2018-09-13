@@ -99,6 +99,7 @@ extension Selector {
     static let handleOpenTab = #selector(OpenTabMessageHandler.handleOpenTab(_sender:forEvent:))
 }
 ```
+The ```OpenTabEvent``` is a simple subclass of ```UIEvent``` to tell the receiver of the message which tab to open.
 
 Using a protocol for ```OpenTabMessageHandler``` and the ```Selector``` extension provides type safety between the sender and receiver.
 
