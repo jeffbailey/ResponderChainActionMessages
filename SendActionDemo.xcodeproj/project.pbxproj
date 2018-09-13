@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F215DAB2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DAA214737790040DBF8 /* UIColor+AppExtension.swift */; };
+		1F215DAC2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DAA214737790040DBF8 /* UIColor+AppExtension.swift */; };
+		1F215DAD2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DAA214737790040DBF8 /* UIColor+AppExtension.swift */; };
+		1F215DAE2147377E0040DBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449572145625300FADFCB /* AppDelegate.swift */; };
+		1F215DAF2147377F0040DBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449572145625300FADFCB /* AppDelegate.swift */; };
+		1F215DB0214737830040DBF8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449592145625300FADFCB /* SettingViewController.swift */; };
+		1F215DB1214737840040DBF8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449592145625300FADFCB /* SettingViewController.swift */; };
+		1F215DB321473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB221473DB10040DBF8 /* UIImage+AppExtension.swift */; };
+		1F215DB421473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB221473DB10040DBF8 /* UIImage+AppExtension.swift */; };
+		1F215DB521473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB221473DB10040DBF8 /* UIImage+AppExtension.swift */; };
+		1F215DB721473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB621473FB70040DBF8 /* UIButton+AppExtension.swift */; };
+		1F215DB821473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB621473FB70040DBF8 /* UIButton+AppExtension.swift */; };
+		1F215DB921473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DB621473FB70040DBF8 /* UIButton+AppExtension.swift */; };
+		1F215DBB2147EAB80040DBF8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBA2147EAB80040DBF8 /* MapViewController.swift */; };
+		1F215DBC2147EAB80040DBF8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBA2147EAB80040DBF8 /* MapViewController.swift */; };
+		1F215DBD2147EAB80040DBF8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBA2147EAB80040DBF8 /* MapViewController.swift */; };
+		1F215DBF214825CC0040DBF8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBE214825CC0040DBF8 /* DashboardViewModel.swift */; };
+		1F215DC0214825CC0040DBF8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBE214825CC0040DBF8 /* DashboardViewModel.swift */; };
+		1F215DC1214825CC0040DBF8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DBE214825CC0040DBF8 /* DashboardViewModel.swift */; };
+		1F215DC92148742D0040DBF8 /* DashboardCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DC82148742D0040DBF8 /* DashboardCardModel.swift */; };
+		1F215DCA2148742D0040DBF8 /* DashboardCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DC82148742D0040DBF8 /* DashboardCardModel.swift */; };
+		1F215DCB2148742D0040DBF8 /* DashboardCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F215DC82148742D0040DBF8 /* DashboardCardModel.swift */; };
+		1F26905B2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26905A2145C5AE005F8CF7 /* DashboardCollectionViewController.swift */; };
+		1F26905C2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26905A2145C5AE005F8CF7 /* DashboardCollectionViewController.swift */; };
+		1F26905D2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26905A2145C5AE005F8CF7 /* DashboardCollectionViewController.swift */; };
 		1F5449582145625300FADFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449572145625300FADFCB /* AppDelegate.swift */; };
-		1F54495A2145625300FADFCB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449592145625300FADFCB /* FirstViewController.swift */; };
-		1F54495C2145625300FADFCB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54495B2145625300FADFCB /* SecondViewController.swift */; };
+		1F54495A2145625300FADFCB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449592145625300FADFCB /* SettingViewController.swift */; };
+		1F54495C2145625300FADFCB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54495B2145625300FADFCB /* FavoritesViewController.swift */; };
 		1F54495F2145625300FADFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F54495D2145625300FADFCB /* Main.storyboard */; };
 		1F5449612145625400FADFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5449602145625400FADFCB /* Assets.xcassets */; };
 		1F5449642145625400FADFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5449622145625400FADFCB /* LaunchScreen.storyboard */; };
 		1F54496F2145625500FADFCB /* SendActionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54496E2145625500FADFCB /* SendActionDemoTests.swift */; };
 		1F54497A2145625500FADFCB /* SendActionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5449792145625500FADFCB /* SendActionDemoUITests.swift */; };
+		1F71FF502145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71FF4F2145D0A40025D50F /* DashboardCollectionViewCell.swift */; };
+		1F71FF512145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71FF4F2145D0A40025D50F /* DashboardCollectionViewCell.swift */; };
+		1F71FF522145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71FF4F2145D0A40025D50F /* DashboardCollectionViewCell.swift */; };
+		1FF22F6F2146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F6E2146CFA100F9039A /* UIResponder+AppExtension.swift */; };
+		1FF22F702146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F6E2146CFA100F9039A /* UIResponder+AppExtension.swift */; };
+		1FF22F712146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F6E2146CFA100F9039A /* UIResponder+AppExtension.swift */; };
+		1FF22F732146DB6200F9039A /* ActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F722146DB6200F9039A /* ActionMessage.swift */; };
+		1FF22F742146DB6200F9039A /* ActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F722146DB6200F9039A /* ActionMessage.swift */; };
+		1FF22F752146DB6200F9039A /* ActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F722146DB6200F9039A /* ActionMessage.swift */; };
+		1FF22F772146DC1300F9039A /* OpenTabActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F762146DC1300F9039A /* OpenTabActionMessage.swift */; };
+		1FF22F782146DC1300F9039A /* OpenTabActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F762146DC1300F9039A /* OpenTabActionMessage.swift */; };
+		1FF22F792146DC1300F9039A /* OpenTabActionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F762146DC1300F9039A /* OpenTabActionMessage.swift */; };
+		1FF22F7B21471FA500F9039A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F7A21471FA500F9039A /* MainTabBarController.swift */; };
+		1FF22F7C21471FA500F9039A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F7A21471FA500F9039A /* MainTabBarController.swift */; };
+		1FF22F7D21471FA500F9039A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF22F7A21471FA500F9039A /* MainTabBarController.swift */; };
+		1FF22F82214728B400F9039A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54495B2145625300FADFCB /* FavoritesViewController.swift */; };
+		1FF22F83214728B500F9039A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54495B2145625300FADFCB /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +77,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F215DAA214737790040DBF8 /* UIColor+AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppExtension.swift"; sourceTree = "<group>"; };
+		1F215DB221473DB10040DBF8 /* UIImage+AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AppExtension.swift"; sourceTree = "<group>"; };
+		1F215DB621473FB70040DBF8 /* UIButton+AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+AppExtension.swift"; sourceTree = "<group>"; };
+		1F215DBA2147EAB80040DBF8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1F215DBE214825CC0040DBF8 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1F215DC82148742D0040DBF8 /* DashboardCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardModel.swift; sourceTree = "<group>"; };
+		1F26905A2145C5AE005F8CF7 /* DashboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewController.swift; sourceTree = "<group>"; };
 		1F5449542145625300FADFCB /* SendActionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendActionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5449572145625300FADFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F5449592145625300FADFCB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1F54495B2145625300FADFCB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1F5449592145625300FADFCB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1F54495B2145625300FADFCB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		1F54495E2145625300FADFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5449602145625400FADFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F5449632145625400FADFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +98,11 @@
 		1F5449752145625500FADFCB /* SendActionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendActionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5449792145625500FADFCB /* SendActionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendActionDemoUITests.swift; sourceTree = "<group>"; };
 		1F54497B2145625500FADFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F71FF4F2145D0A40025D50F /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FF22F6E2146CFA100F9039A /* UIResponder+AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+AppExtension.swift"; sourceTree = "<group>"; };
+		1FF22F722146DB6200F9039A /* ActionMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionMessage.swift; sourceTree = "<group>"; };
+		1FF22F762146DC1300F9039A /* OpenTabActionMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenTabActionMessage.swift; sourceTree = "<group>"; };
+		1FF22F7A21471FA500F9039A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +130,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F215DC6214873A10040DBF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F215DAA214737790040DBF8 /* UIColor+AppExtension.swift */,
+				1F215DB221473DB10040DBF8 /* UIImage+AppExtension.swift */,
+				1F215DB621473FB70040DBF8 /* UIButton+AppExtension.swift */,
+				1FF22F6E2146CFA100F9039A /* UIResponder+AppExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F215DC7214873CA0040DBF8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F215DBE214825CC0040DBF8 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F215DCC2148743A0040DBF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F215DC82148742D0040DBF8 /* DashboardCardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F215DCD214874780040DBF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FF22F7A21471FA500F9039A /* MainTabBarController.swift */,
+				1F26905A2145C5AE005F8CF7 /* DashboardCollectionViewController.swift */,
+				1F215DBA2147EAB80040DBF8 /* MapViewController.swift */,
+				1F54495B2145625300FADFCB /* FavoritesViewController.swift */,
+				1F5449592145625300FADFCB /* SettingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F215DCE214874D90040DBF8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F71FF4F2145D0A40025D50F /* DashboardCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1F54494B2145625300FADFCB = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +201,17 @@
 			isa = PBXGroup;
 			children = (
 				1F5449572145625300FADFCB /* AppDelegate.swift */,
-				1F5449592145625300FADFCB /* FirstViewController.swift */,
-				1F54495B2145625300FADFCB /* SecondViewController.swift */,
+				1FF22F722146DB6200F9039A /* ActionMessage.swift */,
+				1FF22F762146DC1300F9039A /* OpenTabActionMessage.swift */,
 				1F54495D2145625300FADFCB /* Main.storyboard */,
-				1F5449602145625400FADFCB /* Assets.xcassets */,
 				1F5449622145625400FADFCB /* LaunchScreen.storyboard */,
+				1F5449602145625400FADFCB /* Assets.xcassets */,
 				1F5449652145625400FADFCB /* Info.plist */,
+				1F215DCD214874780040DBF8 /* ViewControllers */,
+				1F215DCE214874D90040DBF8 /* Cells */,
+				1F215DC7214873CA0040DBF8 /* ViewModels */,
+				1F215DCC2148743A0040DBF8 /* Models */,
+				1F215DC6214873A10040DBF8 /* Extensions */,
 			);
 			path = SendActionDemo;
 			sourceTree = "<group>";
@@ -196,13 +302,16 @@
 				TargetAttributes = {
 					1F5449532145625300FADFCB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					1F5449692145625400FADFCB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 1F5449532145625300FADFCB;
 					};
 					1F5449742145625500FADFCB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 1F5449532145625300FADFCB;
 					};
 				};
@@ -259,9 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F54495C2145625300FADFCB /* SecondViewController.swift in Sources */,
+				1FF22F772146DC1300F9039A /* OpenTabActionMessage.swift in Sources */,
+				1F54495C2145625300FADFCB /* FavoritesViewController.swift in Sources */,
+				1FF22F7B21471FA500F9039A /* MainTabBarController.swift in Sources */,
+				1F215DB721473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */,
+				1F215DAB2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */,
+				1FF22F6F2146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */,
+				1F215DC92148742D0040DBF8 /* DashboardCardModel.swift in Sources */,
+				1F215DBB2147EAB80040DBF8 /* MapViewController.swift in Sources */,
+				1F215DB321473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */,
+				1F26905B2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */,
 				1F5449582145625300FADFCB /* AppDelegate.swift in Sources */,
-				1F54495A2145625300FADFCB /* FirstViewController.swift in Sources */,
+				1FF22F732146DB6200F9039A /* ActionMessage.swift in Sources */,
+				1F71FF502145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */,
+				1F54495A2145625300FADFCB /* SettingViewController.swift in Sources */,
+				1F215DBF214825CC0040DBF8 /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +391,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F54496F2145625500FADFCB /* SendActionDemoTests.swift in Sources */,
+				1FF22F702146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */,
+				1FF22F82214728B400F9039A /* FavoritesViewController.swift in Sources */,
+				1F71FF512145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */,
+				1FF22F7C21471FA500F9039A /* MainTabBarController.swift in Sources */,
+				1F215DB421473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */,
+				1F215DCA2148742D0040DBF8 /* DashboardCardModel.swift in Sources */,
+				1F215DC0214825CC0040DBF8 /* DashboardViewModel.swift in Sources */,
+				1FF22F742146DB6200F9039A /* ActionMessage.swift in Sources */,
+				1F215DAC2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */,
+				1FF22F782146DC1300F9039A /* OpenTabActionMessage.swift in Sources */,
+				1F215DAE2147377E0040DBF8 /* AppDelegate.swift in Sources */,
+				1F215DB821473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */,
+				1F26905C2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */,
+				1F215DB0214737830040DBF8 /* SettingViewController.swift in Sources */,
+				1F215DBC2147EAB80040DBF8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +414,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F54497A2145625500FADFCB /* SendActionDemoUITests.swift in Sources */,
+				1FF22F712146CFA100F9039A /* UIResponder+AppExtension.swift in Sources */,
+				1FF22F83214728B500F9039A /* FavoritesViewController.swift in Sources */,
+				1F71FF522145D0A50025D50F /* DashboardCollectionViewCell.swift in Sources */,
+				1FF22F7D21471FA500F9039A /* MainTabBarController.swift in Sources */,
+				1F215DB521473DB20040DBF8 /* UIImage+AppExtension.swift in Sources */,
+				1F215DCB2148742D0040DBF8 /* DashboardCardModel.swift in Sources */,
+				1F215DC1214825CC0040DBF8 /* DashboardViewModel.swift in Sources */,
+				1FF22F752146DB6200F9039A /* ActionMessage.swift in Sources */,
+				1F215DAD2147377A0040DBF8 /* UIColor+AppExtension.swift in Sources */,
+				1FF22F792146DC1300F9039A /* OpenTabActionMessage.swift in Sources */,
+				1F215DAF2147377F0040DBF8 /* AppDelegate.swift in Sources */,
+				1F215DB921473FB70040DBF8 /* UIButton+AppExtension.swift in Sources */,
+				1F26905D2145C5AE005F8CF7 /* DashboardCollectionViewController.swift in Sources */,
+				1F215DB1214737840040DBF8 /* SettingViewController.swift in Sources */,
+				1F215DBD2147EAB80040DBF8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7E62D68K9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendActionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +594,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7E62D68K9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendActionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -481,7 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendActionDemo.app/SendActionDemo";
 			};
@@ -502,7 +653,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendActionDemo.app/SendActionDemo";
 			};
@@ -522,7 +673,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SendActionDemo;
 			};
@@ -542,7 +693,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourthframe.SendActionDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SendActionDemo;
 			};
